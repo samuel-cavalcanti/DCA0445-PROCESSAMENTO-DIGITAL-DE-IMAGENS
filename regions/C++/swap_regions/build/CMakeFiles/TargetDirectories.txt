@@ -1,0 +1,3 @@
+/home/samuel/Documents/UFRN/PROCESSAMENTO DIGITAL DE IMAGENS/regions/C++/swap_regions/build/CMakeFiles/rebuild_cache.dir
+/home/samuel/Documents/UFRN/PROCESSAMENTO DIGITAL DE IMAGENS/regions/C++/swap_regions/build/CMakeFiles/swapRegions.dir
+/home/samuel/Documents/UFRN/PROCESSAMENTO DIGITAL DE IMAGENS/regions/C++/swap_regions/build/CMakeFiles/edit_cache.dir

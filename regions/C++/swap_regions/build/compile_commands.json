@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/samuel/Documents/UFRN/PROCESSAMENTO DIGITAL DE IMAGENS/regions/C++/swap_regions/build",
+  "command": "/usr/bin/g++   -isystem /usr/include/opencv4  -g3 -gdwarf-2   -std=gnu++11 -o CMakeFiles/swapRegions.dir/swapRegions.cpp.o -c \"/home/samuel/Documents/UFRN/PROCESSAMENTO DIGITAL DE IMAGENS/regions/C++/swap_regions/swapRegions.cpp\"",
+  "file": "/home/samuel/Documents/UFRN/PROCESSAMENTO DIGITAL DE IMAGENS/regions/C++/swap_regions/swapRegions.cpp"
+}
+]

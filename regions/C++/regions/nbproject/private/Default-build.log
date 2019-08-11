@@ -1,0 +1,9 @@
+Scanning dependencies of target findByColor
+[ 50%] Building CXX object CMakeFiles/findByColor.dir/main.cpp.o
+/home/samuel/Documents/UFRN/PROCESSAMENTO DIGITAL DE IMAGENS/regios/C++/main.cpp:2:10: fatal error: opencv/cv.hpp: No such file or directory
+    2 | #include <opencv/cv.hpp>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/findByColor.dir/build.make:63: CMakeFiles/findByColor.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:76: CMakeFiles/findByColor.dir/all] Error 2
+make: *** [Makefile:84: all] Error 2

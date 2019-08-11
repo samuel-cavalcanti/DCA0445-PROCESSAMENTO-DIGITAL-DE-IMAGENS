@@ -1,0 +1,13 @@
+called: /usr/bin/g++
+	/home/samuel/Documents/UFRN/PROCESSAMENTO DIGITAL DE IMAGENS/regios/C++/build
+	/usr/bin/g++
+	-isystem
+	/usr/include/opencv4
+	-g3
+	-gdwarf-2
+	-std=gnu++11
+	-o
+	CMakeFiles/findByColor.dir/main.cpp.o
+	-c
+	/home/samuel/Documents/UFRN/PROCESSAMENTO DIGITAL DE IMAGENS/regios/C++/main.cpp
+
