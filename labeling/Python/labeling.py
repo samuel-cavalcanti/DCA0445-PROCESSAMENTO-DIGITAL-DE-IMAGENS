@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import sys
 
 
 def show_image(title: str, image: np.ndarray):
@@ -70,7 +71,7 @@ def count_objects_and_holes(image: np.ndarray) -> (int, int, int):
 
 
 def main():
-    image = cv2.imread("images/bolhas.png", cv2.IMREAD_GRAYSCALE)
+    image = cv2.imread(sys.argv[1], cv2.IMREAD_GRAYSCALE)
 
     print("counting objects_and_holes")
 

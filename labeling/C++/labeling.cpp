@@ -10,7 +10,7 @@ int countHoles(cv::Mat&);
 void countObjectsWithHoles(cv::Mat,int&,int&,int&);
 int main(int argc, char const *argv[]){
 
-    cv::Mat image = loadImage("images/bolhas.png");
+    cv::Mat image = loadImage(argv[1]);
     
     int allObjects;
     int holes;
