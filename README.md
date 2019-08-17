@@ -38,7 +38,7 @@ Ou, caso esteja testando o [swap regions](regions/C++/swap_regions)
 ```
 
 ## Exercício Labeling  
-A resposta desse Exercício se encontra na pasta [labeling][labeling/]. 
+A resposta desse Exercício se encontra na pasta [labeling](labeling/). 
 O problema foi resolvido tanto em python quando em C++.  
 
 Para testar a solução em python  vá até a pasta [Python](labeling/Python) e execute o seguinte comando: 
