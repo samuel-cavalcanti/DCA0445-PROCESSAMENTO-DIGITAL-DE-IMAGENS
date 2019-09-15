@@ -5,6 +5,7 @@ __Todos os exercícios de processamento de imagem apresentados a seguir foi util
 __de imagem chamada__ _**OpenCV**_.  
 
 A versão do OpenCV utilizada é a  4.1.1.
+A versão do python utilizada é a  3.7.4
 Versões anteriores pode haver problemas na compilação ou execução dos scrips python!!! 
 
 ## Exercício Regions  
