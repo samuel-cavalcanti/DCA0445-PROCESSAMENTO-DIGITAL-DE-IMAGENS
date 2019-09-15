@@ -15,6 +15,7 @@ def main():
 
     if not cap.isOpened():
         print("erro vídeo não encontrado")
+        exit(1)
 
     while "e" != chr(cv2.waitKey(1) & 255):
         ret, frame = cap.read()

@@ -57,7 +57,7 @@ class TiltShift:
         shift = np.multiply(blurred_weight, self.__blurred_image) / 255
 
         self.tilt_shift = tilt + shift
-        if self.__delay > 0:
+        if self.__delay > -1:
             cv2.imshow(self.__window_name, self.tilt_shift)
 
     def __update_parameters(self):
@@ -71,10 +71,10 @@ class TiltShift:
             self.__create_track_bars(window_name)
 
     def show_tilt_shift(self, delay: int):
-        self.__change(0)
         self.__delay = delay
+        self.__change(0)
 
-        if delay > 0:
+        if delay > -1:
             cv2.imshow("original image", self.__original_image)
             cv2.waitKey(delay)
 
