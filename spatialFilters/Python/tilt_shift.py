@@ -60,11 +60,20 @@ class TiltShift:
         if self.__delay > -1:
             cv2.imshow(self.__window_name, self.tilt_shift)
 
+    @staticmethod
+    def __normalize(x: int, t: int) -> float:
+        return x * t / 100
+
     def __update_parameters(self):
+
         if self.__track_bars:
-            self.__l1 = 2 * cv2.getTrackbarPos(self.__l1_window_name, self.__window_name) - 1
-            self.__l2_len = 2 * cv2.getTrackbarPos(self.__l2_window_name, self.__window_name)
+            self.__l1 = cv2.getTrackbarPos(self.__l1_window_name, self.__window_name) - 1
+            self.__l2_len = cv2.getTrackbarPos(self.__l2_window_name, self.__window_name)
             self.__d = 0.5 * cv2.getTrackbarPos(self.__d_window_name, self.__window_name) + 1
+
+            self.__l1 = self.__normalize(self.__l1, self.__original_image.shape[0])
+            self.__l2_len = self.__normalize(self.__l2_len, self.__original_image.shape[1] / 2)
+
 
     def show_track_bars(self, window_name: str):
         if not self.__track_bars:
