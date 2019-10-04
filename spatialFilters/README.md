@@ -23,6 +23,6 @@ $ python tilt_shift.py
 $ python tilt_shift_video.py 
 ```
 
-caso não queira esperar o vídeo foi enviado pro youtube:
+caso não queira esperar, o vídeo foi enviado pro youtube:
 
 [![](http://img.youtube.com/vi/y_mbSRrWVj0/0.jpg)](http://www.youtube.com/watch?v=y_mbSRrWVj0 "")
