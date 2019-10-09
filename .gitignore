@@ -1,5 +1,5 @@
 regions/Python/.idea
 labeling/Python/.ideia
 labeling/C++/build
-
-/histogram/C++/build/
+/histogram/C++/build/.idea
+.idea

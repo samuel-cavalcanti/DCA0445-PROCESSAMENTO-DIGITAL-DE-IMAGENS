@@ -14,10 +14,10 @@ def get_regions(image: np.ndarray) -> list:
     cols = image.shape[1]
 
     return [
-        image[0:int(rows / 2), 0:int(cols / 2)],
+        image[int(rows / 2):rows, int(cols / 2):cols],
         image[int(rows / 2):rows, 0:int(cols / 2)],
         image[0:int(rows / 2), int(cols / 2):cols],
-        image[int(rows / 2):rows, int(cols / 2):cols]
+        image[0:int(rows / 2), 0:int(cols / 2)]
 
     ]
 
