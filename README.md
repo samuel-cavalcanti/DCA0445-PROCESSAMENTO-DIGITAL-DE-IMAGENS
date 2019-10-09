@@ -18,3 +18,5 @@ Versões anteriores pode haver problemas na compilação ou execução dos scrip
 - [histogram](histogram)
 
 - [spatialFilters](spatialFilters)
+
+- [discrete_fourier_transform](discrete_fourier_transform)
