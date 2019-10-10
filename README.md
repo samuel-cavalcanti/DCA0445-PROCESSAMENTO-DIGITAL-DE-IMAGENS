@@ -22,3 +22,6 @@ Versões anteriores pode haver problemas na compilação ou execução dos scrip
 - [discrete_fourier_transform](discrete_fourier_transform)
 
 - [pointillism](pointillism)
+
+- [k-means](kmeans)
+
